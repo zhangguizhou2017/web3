@@ -5,7 +5,7 @@ import {
 const MY_INFURA_SEPOLIA_RPC = 'https://sepolia.infura.io/v3/4013d92584b14f69a0128110b7c76be4';
 const provider = new ethers.JsonRpcProvider(MY_INFURA_SEPOLIA_RPC);
 
-const privateKey = '0xe6b2f9f43f196f1c0212400701538a1709a5ee0c580ca74816bc2e036deb1fcf';
+const privateKey = '';
 const wallet = new ethers.Wallet(privateKey, provider);
 
 // WETH的ABI
